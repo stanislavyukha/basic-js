@@ -25,7 +25,6 @@ export default function dateSample(sampleActivity) {
   const t = Math.ceil(Math.log(MODERN_ACTIVITY/+sampleActivity) / k);
   if (t === Infinity || t < 0 || isNaN(t)) return false;
   return t;
-  
 }
 
 
